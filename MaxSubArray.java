@@ -6,8 +6,8 @@ package com.yihao.test;
  * @author yanyihao
  *
  */
-public class Solution {
-
+public class MaxSubArray {
+	
 	public int maxSubArray(int[] nums) {
 		int max = nums[0];
 		int len = nums.length;
@@ -21,5 +21,4 @@ public class Solution {
 		}
 		return max;
 	}
-
 }
